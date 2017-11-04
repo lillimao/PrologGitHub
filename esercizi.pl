@@ -9,3 +9,5 @@
 max([X], X).
 max([X|Ys], X) :- max(Ys, K), X >= K.
 max([X|Ys], N) :- max(Ys, N).
+
+prova mod con atom
